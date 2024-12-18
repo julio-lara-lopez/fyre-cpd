@@ -1,0 +1,49 @@
+{
+  "metadata": {
+    "name": "another-template",
+    "description": "",
+    "origin_country": "US",
+    "tags": [
+      "dsx"
+    ],
+    "asset_type": "environment",
+    "rov": {
+      "mode": 0
+    },
+    "asset_category": "USER",
+    "created_at": "2024-12-18T16:51:46Z",
+    "created": 1734540706093,
+    "asset_id": "environment.anothertemplate",
+    "asset_attributes": [
+      "environment"
+    ]
+  },
+  "entity": {
+    "environment": {
+      "sub_type": "jupyterlab",
+      "display_name": "another-template",
+      "hardware_specification": {
+        "type": "referenced",
+        "guid": "hardware_specification.anothertemplate"
+      },
+      "software_specification": {
+        "type": "referenced",
+        "guid": "336b29df-e0e1-5e7d-b6a5-f6ab722625b2"
+      },
+      "tools_specification": {
+        "supported_kernels": [
+          {
+            "name": "python3",
+            "display_name": "Python 3.10",
+            "language": "python",
+            "version": "3.10"
+          }
+        ],
+        "notebook_extensions": []
+      },
+      "runtime_definition": "jupyter-231l-py",
+      "location": null
+    }
+  },
+  "attachments": []
+}
